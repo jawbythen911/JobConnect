@@ -292,31 +292,32 @@
     </section>
 
         <!-- Contact Section -->
+    <!-- Contact Section -->
     <section id="contact" class="bg-light">
-        <div class="container">
+      <div class="container">
         <h2 class="text-center mb-4">Contact Us</h2>
         <form action="https://formsubmit.co/jobconnectcontacts@gmail.com" method="POST">
-            <!-- Redirect after submit -->
-            <input type="hidden" name="_next" value="https://jawbythen911.github.io/JobConnect/thank-you.html">
-            <!-- Disable CAPTCHA (optional) -->
-            <input type="hidden" name="_captcha" value="false">
-    
-            <div class="row mb-3">
+          <!-- Force redirect to thank-you page after every submit -->
+          <input type="hidden" name="_next" value="https://jawbythen911.github.io/JobConnect/thank-you.html">
+          <!-- Optional: Disable CAPTCHA -->
+          <input type="hidden" name="_captcha" value="false">
+
+          <div class="row mb-3">
             <div class="col-md-6">
-                <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+              <input type="text" class="form-control" name="name" placeholder="Your Name" required>
             </div>
             <div class="col-md-6">
-                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required>
             </div>
-            </div>
-            <div class="mb-3">
+          </div>
+          <div class="mb-3">
             <textarea class="form-control" name="message" rows="4" placeholder="Your Message" required></textarea>
-            </div>
-            <div class="text-center">
+          </div>
+          <div class="text-center">
             <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-            </div>
+          </div>
         </form>
-        </div>
+      </div>
     </section>
   
     <!-- Footer -->
